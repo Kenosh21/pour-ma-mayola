@@ -1,27 +1,58 @@
 
 body {
     font-family: 'Comic Sans MS', cursive;
-    background: linear-gradient(to right, #ffe4e1, #ffc0cb);
+    background: linear-gradient(to right, #ffd6e8, #ffe6f0);
     margin: 0;
     padding: 0;
     color: #880e4f;
     background-image: url('https://www.transparenttextures.com/patterns/hearts.png');
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #ffb6c1;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #ff69b4;
+}
+
+h1 {
+    margin: 0;
+    font-size: 32px;
+    color: #fff;
+}
+
+.slider-nav {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-top: 10px;
+    background-color: #ffc0cb;
+}
+
+.slider-nav a {
+    display: inline-block;
+    color: #fff;
+    background: #f06292;
+    margin: 5px;
+    padding: 10px 15px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.slider-nav a:hover {
+    background: #d81b60;
 }
 
 .container {
     max-width: 900px;
-    margin: auto;
+    margin: 20px auto;
     padding: 20px;
     background-color: #fff0f5;
     border-radius: 20px;
     box-shadow: 0 0 20px #ff69b4;
     text-align: center;
-}
-
-h1 {
-    color: #e91e63;
-    font-size: 36px;
-    margin-bottom: 10px;
 }
 
 .intro {
@@ -52,7 +83,8 @@ h1 {
     width: 200px;
     margin: 10px;
     border-radius: 12px;
-    border: 2px solid #e91e63;
+    border: 3px solid #e91e63;
+    box-shadow: 0 0 10px #e91e63;
 }
 
 .photos input[type="file"] {
