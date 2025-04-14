@@ -16,3 +16,9 @@ document.querySelectorAll(".stars").forEach(function(container) {
         }
     });
 });
+
+function scrollNav(direction) {
+    const nav = document.getElementById('navSlider');
+    const scrollAmount = 200 * direction;
+    nav.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+}
