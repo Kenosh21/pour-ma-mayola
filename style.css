@@ -1,0 +1,49 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff0f5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #e91e63;
+}
+
+.question {
+    margin: 20px 0;
+}
+
+.stars span {
+    font-size: 30px;
+    cursor: pointer;
+    color: #ccc;
+}
+
+.stars span.checked {
+    color: #ffca28;
+}
+
+.photos {
+    margin-top: 40px;
+}
+
+.photos img {
+    width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.final {
+    margin-top: 40px;
+    font-size: 24px;
+    color: #d81b60;
+}
